@@ -1,0 +1,64 @@
+<html> 
+    <head> 
+        <title>LAMARAN PEKERJAAN</title> 
+    </head> 
+    <body> 
+    <h1>Lamaran Pekerjaan</h1> 
+    <img src="image.jpeg" alt=" foto pribadi" style="width: 200px; height: 200px; border-radius: 
+50%;"> 
+    <p>Kepada Yth,</p>
+<p><b>HRD PT Infomedia Nusantara</b></p> 
+    <p>Jl. RS. Fatmawati Raya No.77-81, RT.6/RW.5, Cipete Utara, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12150</p> 
+
+    <p>Dengan hormat,</p> 
+    <p>Saya yang bertanda tangan di bawah ini:</p>  
+ 
+    <table border="2 "> 
+        <tr> 
+            <th>Data Pribadi</th> 
+            <th>Keterangan</th> 
+        </tr> 
+        <tr> 
+            <td><b>Nama</b></td> 
+            <td>Atika Sari Ramadhani</td> 
+        </tr> 
+        <tr> 
+            <td><b>Tempat, Tanggal Lahir</b></td> 
+            <td>Bekasi, 10 Oktober 2005</td> 
+        </tr> 
+        <tr> 
+            <td><b>Pendidikan</b></td> 
+            <td>S1 Informatika</td> 
+        </tr> 
+        <tr> 
+            <td><b>Email</b></td> 
+            <td>atikasrrmdhn.10@gmail.com</td> 
+        </tr> 
+        <tr> 
+            <td><b>Telepon</b></td> 
+            <td>0853-1016-6016</td> 
+        </tr> 
+    </table> 
+
+    <p> Saya mengajukan lamaran untuk posisi <b>Data Analyst</b> 
+        di <b>PT Infomedia Nusantara</b>. 
+        Sehubung dengan adanya penerimaan karyawan di Perusahan yang Bapak/Ibu Pimpin,saya bermaksud mengajukan surat lamaran agar dapat mengisi bidang tersebut. Saya memiliki ketertarikan pada bidang analisis data dan 
+        saat ini mempelajari Machine Learning, Statistika, serta 
+        Visualisasi Data melalui mata kuliah dan proyek perkuliahan.</p>
+ 
+    <p><b>Kemampuan</b></p> 
+    <ol> 
+        <li>HTML dasar untuk tampilan web.</li>
+        <li> SQL mengolah data dalam database.</li>
+        <li>Python (dasar) dan pengolahan data.</li>
+        <li>Statistika dan Visualisasi Data dasar.</li>
+    </ol> 
+    <p>Berikut adalah tautan ke Portofolio saya:</p> 
+    <a href="https://github.com/atikasarii" 
+    target="_blank">Github Portofolio</a> 
+    <p>Saya berharap bisa bergabung dalam perusahaan yang dipimpin oleh Bapak/ibu. Terima kasih atas perhatian.</p> 
+    <p>Hormat saya,</p> 
+    <br> 
+    <p><b>Atika Sari Ramadhani</b></p> 
+    </body> 
+</html> 
