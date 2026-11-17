@@ -21,18 +21,15 @@ Route::post('/logout', [LoginController::class, 'destroy'])
     ->middleware('auth')
     ->name('logout');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware('auth')->name('dashboard');
+Route::get('/dashboard', [\App\Http\Controllers\DashboardController::class, 'index'])->middleware('auth')->name('dashboard');
 
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::resource('categories', CategoryController::class);
 
     Route::resource('products', ProductController::class);
 
-    Route::get('/reports/sales', function () {
-        return 'Halaman laporan penjualan (khusus admin) - ReportController belum dibuat.';
-    })->name('report.sales');
+    Route::get('/reports/sales', [\App\Http\Controllers\ReportController::class, 'sales'])->name('report.sales');
+    Route::get('/reports/sales/export', [\App\Http\Controllers\ReportController::class, 'export'])->name('report.export');
 
     Route::get('/users', function () {
         return 'Halaman kelola akun kasir (khusus admin) - UserController belum dibuat.';
